@@ -35,9 +35,7 @@ body {
   display: inline-block;
   width: 100%;
 
-  ul {
-    list-style-type: none;
-    margin: 0;
+  ul {    margin: 0;
     padding: 0;
     overflow: hidden;
     li {
@@ -57,4 +55,8 @@ body {
       }
     }
   }
+}
+
+ul {
+  list-style-type: none;
 }
