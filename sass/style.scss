@@ -1,9 +1,11 @@
 body {
   background: #333;
-  text-align: center; }
+  text-align: center;
+}
 
 .header {
-  margin-top: 25px; }
+    margin-top: 25px;
+}
 
 .title {
   font-size: 64px;
@@ -11,23 +13,29 @@ body {
   font-style: italic;
   background: -webkit-linear-gradient(#bbb, #b00);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+}
 
 .subtitle {
   font-size: 32px;
   font-family: 'IM Fell English SC', serif;
   background: -webkit-linear-gradient(#bbb, #444);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+}
 
 .reaper-img {
   margin-top: 15px;
   border: 2px solid black;
   height: 306px;
-  width: 320px; }
+  width: 320px;
+}
 
 .menu {
   display: inline;
-  background: #666 ul; }
+  background: #666
 
-/*# sourceMappingURL=style.css.map */
+  ul {
+    
+  }
+}
