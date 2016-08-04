@@ -28,6 +28,12 @@ body {
 
 .menu {
   display: inline;
-  background: #666 ul; }
+  background: #666; }
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .menu ul li {
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
