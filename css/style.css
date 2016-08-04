@@ -1,13 +1,13 @@
 body {
   background: #333;
-  text-align: center; }
+  text-align: center;
+  font-family: 'IM Fell English SC', serif; }
 
 .header {
   margin-top: 25px; }
 
 .title {
   font-size: 64px;
-  font-family: 'IM Fell English SC', serif;
   font-style: italic;
   background: -webkit-linear-gradient(#bbb, #b00);
   -webkit-background-clip: text;
@@ -15,7 +15,6 @@ body {
 
 .subtitle {
   font-size: 32px;
-  font-family: 'IM Fell English SC', serif;
   background: -webkit-linear-gradient(#bbb, #444);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
@@ -27,13 +26,24 @@ body {
   width: 320px; }
 
 .menu {
-  display: inline;
-  background: #666; }
+  background: #666;
+  display: inline-block;
+  width: 100%; }
   .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    overflow: hidden; }
     .menu ul li {
-      text-decoration: none; }
+      width: 33%;
+      display: inline; }
+      .menu ul li a {
+        display: inline-block;
+        color: #ddd;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+        .menu ul li a:hover {
+          background: #111; }
 
 /*# sourceMappingURL=style.css.map */
