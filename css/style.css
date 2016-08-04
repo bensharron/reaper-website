@@ -1,0 +1,29 @@
+body {
+  background: #444444;
+  text-align: center;
+}
+
+.title {
+  margin-top: 25px;
+  font-size: 64px;
+  font-family: 'IM Fell English SC', serif;
+  font-style: italic;
+  background: -webkit-linear-gradient(#bbb, #b00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 32px;
+  font-family: 'IM Fell English SC', serif;
+  background: -webkit-linear-gradient(#bbb, #b00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reaper-img {
+  margin-top: 15px;
+  border: 2px solid black;
+  height: 306px;
+  width: 320px;
+}
