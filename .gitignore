@@ -2,5 +2,7 @@
 reaper-website.sublime-workspace
 reaper-website.sublime-project
 
-/.metadata/
+.metadata
 RemoteSystemsTempFiles/.project
+node_modules/bootstrap
+.sass-cache
