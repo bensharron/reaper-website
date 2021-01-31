@@ -1,5 +1,5 @@
 body {
-  background: #333;
+  background: #555;
   text-align: center;
   font-family: 'IM Fell English SC', serif;
 }
@@ -38,6 +38,7 @@ body {
   ul {    margin: 0;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
     li {
       width: 33%;
       display: inline;
@@ -57,11 +58,12 @@ body {
   }
 }
 
-h4 {
+.subheader {
   font-size: 24px;
   text-decoration: underline;
 }
 
-ul {
-  list-style-type: none;
+.synopsis {
+  display: inline-block;
+  max-width: 60%; 
 }
