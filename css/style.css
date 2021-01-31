@@ -15,7 +15,7 @@ body {
 
 .subtitle {
   font-size: 32px;
-  background: -webkit-linear-gradient(#bbb, #444);
+  background: -webkit-linear-gradient(#bbb, #666);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
